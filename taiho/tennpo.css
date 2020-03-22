@@ -1,0 +1,230 @@
+@charset "shift_jis";
+
+body{
+     margin:0 auto; 
+     background-color:black ;
+     
+     
+     }
+#wrapper{
+         margin:0 auto; 
+         width:960px;
+         
+        }
+#header{
+        background-color:black;
+        height:130px;
+}
+#logo{
+        padding:20px 0 0 20px;
+}
+#header p{
+         font-size:10px;
+         padding:0 0 20px 30px;
+         color: white;
+         overflow: hidden; 
+}        
+          
+#main-navi{
+           width:960px;       
+           background-color:brown;
+           height:60px;
+           overflow: hidden;
+           box-shadow: 1px 1px 3px grey; 
+
+}
+#main-navi ul{
+              padding-left:0;
+              
+             }
+
+#main-navi ul li{
+                float:left;
+                list-style: none;
+                text-align:center; 
+                padding:5px 42px 10px 42px;
+               }
+#main-navi ul li a{
+                   color:white;
+                   
+                  }
+                  
+a:link{
+       color:white;
+       text-decoration: none;
+       }
+a:visited{
+          color:brown;
+          text-decoration:none; 
+          }                         
+a:hover{
+        color:gray;
+        text-decoration:underline; 
+        }
+a:active{
+         color:white;
+         text-decoration:underline; 
+           }
+                        
+
+#main-feature{
+              overflow: hidden; 
+              background-color:white;
+              height:300px;
+
+              }
+#second-feature{
+                 overflow: hidden;
+                 background-color:bisque;
+                 height:auot;
+                }
+.second-0{
+                    width:920px ;
+                    float:left;
+                    height:50px;
+                    margin:10px 10px 0 20px;
+                             
+                    }
+.second-0 h1{ 
+             color: black;
+             font-size:25px;
+             padding: 0 0 20px 20px;           
+             } 
+
+.second-1{
+                  width:920px ;
+                  float:left;
+                  height:370px;
+                  margin:10px 10px 0 20px;
+                 
+                  border-bottom: solid 0.5px grey;
+             
+                }
+.second-1-1{
+            width:310px ;
+            float:left;
+            height:330px;
+            
+            margin:20px 0 20px 20px; 
+          }
+          
+.second-1-2{
+           width:570px ;
+           float:left;
+           height:330px;
+           background-color:white;
+           margin:20px 20px 20px 0; 
+          }
+.second-1-2 h1{
+                font-size:20px;
+                padding: 64px 0 0 20px;
+}
+
+.second-1-2 p{
+               font-size: 14px;
+               padding:0 0 0 20px;
+               line-height:22px; 
+         }
+.second-1-2 span{
+            font-size: 16px;
+            padding: 0 10px 0 0;
+            
+            padding:0 0 0 20px;
+            ;
+            
+}                 
+
+.second-2{
+            width:920px ;
+            float:left;
+            height:270px;
+            margin:0 10px 0 20px;
+            
+            border-bottom: solid 0.5px grey;
+       
+          }
+.second-2-1{
+      width:310px ;
+      float:left;
+      height:230px;
+     
+      margin:20px 0 20px 20px; 
+    }
+    
+.second-2-2{
+     width:570px ;
+     float:left;
+     height:230px;
+     background-color:white;
+     margin:20px 20px 20px 0; 
+    }
+.second-2-2 h1{
+        font-size:20px;
+        padding: 12px 0 0 20px;
+}
+
+.second-2-2 p{
+       font-size: 14px;
+       padding:0 0 0 20px;
+       line-height:22px; 
+ }
+.second-2-2 span{
+    font-size: 16px;
+    padding: 0 10px 0 0;
+    color: brown;
+    padding:0 0 0 20px;
+    
+}                           
+#footer{
+        overflow: hidden; 
+        background-color:black;
+        height:280px ;
+       }
+
+.footer1{
+           height:180px ;
+           overflow: hidden;             
+           float: left;
+           width:960px;
+           border-bottom:solid 1px white;
+           border-top:solid 1px blanchedalmond; 
+       }
+.footer1 p{
+           line-height:23px;
+           padding-left: 20px;
+           color:white;
+           padding-top:20px;   
+           }        
+               
+.footer2{
+           height:60px ;
+                      
+           float: left;
+           width:960px;
+                       
+           }
+.footer2 ul{
+           padding-left:0;
+                       
+           }
+               
+.footer2  ul li{
+               float:left;
+               list-style: none;
+               text-align:center; 
+               padding:5px 42px 10px 42px;
+               }
+.footer2  ul li a{
+                  color:white;
+                 }
+.footer3{
+         height:40px ;
+         background-color:brown;
+         float: left;
+         width:960px;
+        }            
+.footer3 p{           
+           text-align: center;
+           color:white;
+           line-height:10px; 
+           }       

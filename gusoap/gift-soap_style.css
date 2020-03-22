@@ -1,0 +1,122 @@
+@charset "shift_jis";
+
+body{
+     margin:0 auto; 
+     background-color:white;  
+     }
+#wrapper{
+         margin:0 auto; 
+         width:960px;       
+        }
+#header{
+        background-color:white;
+        height:140px;
+        overflow: hidden;
+        }
+#header ul{
+           padding-left:0;       
+           }
+#header ul li{
+              float:right;
+              list-style: none;
+              text-align:center; 
+              padding:10px 30px 20px 30px;
+              }
+                  
+#logo{
+      padding:20px 0 0 20px;
+      }
+#header p{
+         font-size:10px;
+         padding:0 0 20px 30px;
+         color: white;
+         overflow: hidden; 
+         }        
+ 
+a:link{
+       color:black;
+       text-decoration: none;
+       }
+a:visited{
+          color:black;
+          text-decoration:none; 
+          }                         
+a:hover{
+        color:gray;
+        text-decoration:underline; 
+        }
+a:active{
+         color:black;
+         text-decoration:underline; 
+           }
+#main-feature{
+              overflow: hidden; 
+              
+              height:300px;              
+              }
+#second-feature{
+                 overflow: hidden;
+                 background-color:white;
+                 height:auto;
+                }
+.second-0{   
+          width:960px ;
+          height:60px;
+          text-align: center;
+          float: left;
+          line-height: 10px;           
+          }
+.second-0 p{              
+            font-size: 25px;
+            color:rgb(116, 75, 21);
+           }             
+.second-1{
+          width:240px ;
+          float:left;
+          height:120px;
+          background-color: white;          
+          font-size:14px;
+          margin:0 0 20px 0;                      
+         }
+.second-1 p{
+             text-align:center;
+           }
+.second-2{
+           width:719px ;
+           margin:0 0 20px 0; 
+           height:119px;
+           float:left;
+           border-bottom:1px solid gray;                      
+          }
+.second-2 h1{ padding:0 0 0 20px; 
+              font-size:18px;
+              font-weight:bold;  
+            }
+.second-2 p{ padding:0 20px 10px 20px; 
+             font-size:14px;
+             line-height:20px  
+           }
+.second-3{
+          width:719px ;
+          margin:0 0 20px 0; 
+          height:119px;
+          float:left;
+         }
+.second-3 h1{ padding:0 0 0 20px; 
+              font-size:18px;
+              font-weight:bold;  
+            }
+.second-3 p{ padding:0 20px 10px 20px; 
+             font-size:14px;
+             line-height:20px  
+           }
+#footer{
+        overflow: hidden; 
+        background-color:rgb(116, 75, 21);
+        height:auto;
+       }
+
+#footer p {
+           color:white;
+           text-align:center; 
+          }

@@ -1,0 +1,135 @@
+@charset "shift_jis";
+
+*  { font-family:"メイリオ",Arial,"ヒラギノ角ゴPro W3",
+     "Hiragino Kaku Gothic Pro","MS Pゴシッグ"sans-serif;
+   }
+     
+body  {
+       margin:0;
+       background-color:#3f312b;
+       font-size:16px;
+       background-attachment:fixed;       
+}
+h1,h2,h3 {
+          margin-top:0;
+}    
+#wrapper  {
+           width:960px;
+           margin:0 auto;
+}          
+#header {
+         background-color:#3f312b;
+         overflow:hidden;
+}        
+#contact {
+          float:right;
+          color:white;
+          background-color:#783c1d;
+          padding:5px 10px 5px 10px;
+}        
+#logo {
+       float:left;
+       clear:both;
+       margin:0 0px 0px 15px;
+       padding:0px;
+       width:400px;  
+}        
+#global-navi {
+              float:right;
+              margin-left:20px;
+              color:white;
+}             
+#global-navi ul,li {
+                    float:left;
+                    padding-left:30px;
+                    color:white;
+                    list-style:none;
+                    margin:45px 5px 5px 0;
+}
+#main-feature {
+               overflow:hidden;
+               width:960px;
+               height:300px;
+}                 
+#feature-wrapper h4 { 
+                     float:right;
+                     font-size:13px;
+                     color:#8f2e14;
+                     margin:20px 10px 0 20px;
+                     line-height:20px;
+}
+a:link {
+        text-decoration:none;
+        color:white;
+}                      
+a:visited {
+           text-decoration:none;
+           color:white;
+}                         
+a:hover {
+         text-decoration:underline;
+         color:#F4A460;
+}             
+a:active {
+          text-decoration:none;
+          color:white;
+}         
+#main-navi {
+             width:960px;
+             height:442px;
+             overflow:hidden;
+             background:#f6ae54;
+}                         
+.f-section1 {
+             width:200px; 
+             float:left;
+             height:442px;
+             clear:both;
+             background:#f6ae54;
+} 
+.f-section1 table {
+                   overflow:hidden;
+                   line-height:40px;
+                   width:200px; 
+                   float:center;
+                   text-align:center;
+} 
+.f-section1 table tr,td{
+                        float:center;
+                        color:white;
+                        background:#3f312b;
+                        font-size:16px;
+}                    
+.f-section1 table th{ 
+                      width:200px; 
+                      color:white;
+                      background:#622d18;
+                      text-align:center;
+                      font-size:16px;
+}
+.f-section2 {
+              float:left;
+              width:500px;
+              height:442px;
+} 
+.f-section2 img {
+                  width:400px;
+                  float:center;
+                  padding:80px 0 20px 40px; 
+}                 
+.f-section3{
+            float:left;
+            width:260px;
+            height:442px ;
+}
+.f-section3 p{
+               line-height:60px;
+               padding:60px 0 0 20px;
+}                                                                                                                     
+#footer {
+         background-color:#3f312b;
+         overflow:hidden;
+         clear:both;
+         text-align:center;
+         color:white;
+}
