@@ -46,12 +46,11 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height:610px;
-
+  height: 610px;
 }
 .content {
   width: 960px;
-  height:610px;
+  height: 610px;
   background-color: lightcoral;
   margin: 0 auto;
 }
@@ -69,11 +68,10 @@ a:hover {
   font-size: 30px;
 }
 .content_box1 {
-  width: 320px;
+  width: 400px;
   height: 500px;
   margin: 0;
   float: left;
-  
 }
 .content_box1 p {
   text-align: left;
@@ -81,8 +79,20 @@ a:hover {
   font-size: 15px;
   padding: 0 30px 0 40px;
 }
-.content_box1 img {
-  width: 240px;
+.content_box2 {
+  width: 280px;
+  height: 500px;
+  margin: 0;
+  float: left;
+}
+.content_box3 {
+  width: 280px;
+  height: 500px;
+  margin: 0;
+  float: left;
+}
+.content_box3 img {
+  width: 200px;
   float: center;
   border-radius: 150px;
   margin-top: 0;
