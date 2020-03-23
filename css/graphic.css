@@ -46,11 +46,13 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height: 3890px;
+  height:3890px;
+
 }
 .content {
   width: 960px;
-  height: 3890px;
+  height:3890px;
+  
   margin: 0 auto;
 }
 .content_top {
@@ -80,6 +82,7 @@ a:hover {
   width: 320px;
   height: 100px;
   margin: 0;
+
   float: left;
 }
 .content_box2 p {
