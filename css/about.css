@@ -74,6 +74,11 @@ a:hover {
   margin: 0;
   float: left;
 }
+.content_left p {
+  text-align: left;
+  line-height: 32px;
+  font-size: 15px;
+}
 .content_box1 img {
   width: 285px;
   padding: 0 17.5px;
