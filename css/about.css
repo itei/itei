@@ -52,7 +52,7 @@ a:hover {
 .content {
   width: 960px;
   height:610px;
-  
+  background-color: lightcoral;
   margin: 0 auto;
 }
 .content_top {
@@ -73,7 +73,7 @@ a:hover {
   height: 500px;
   margin: 0;
   float: left;
-  background-color: lightcoral;
+  
 }
 .content_left p {
   text-align: left;
