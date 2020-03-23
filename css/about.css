@@ -78,27 +78,7 @@ a:hover {
   width: 285px;
   padding: 0 17.5px;
 }
-.content_box2 {
-  width: 320px;
-  height: 100px;
-  margin: 0;
 
-  float: left;
-}
-.content_box2 p {
-  font-size: 14px;
-  text-align: center;
-}
-.content_box3 {
-  width: 320px;
-  height: 220px;
-  margin: 0;
-  float: left;
-}
-.content_box3 img {
-  width: 285px;
-  padding: 0 17.5px;
-}
 #footer_wrapper {
   width: auto;
   clear: both;
