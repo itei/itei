@@ -44,14 +44,15 @@ a:hover {
   text-decoration: underline;
 }
 #content_wrapper {
-  
+  width: auto;
   clear: both;
-  height:960px;
- background-color: lightblue;
+  height:3890px;
+
 }
 .content {
   width: 960px;
-  height:960px;
+  height:3890px;
+  
   margin: 0 auto;
 }
 .content_top {
@@ -67,7 +68,37 @@ a:hover {
   float: left;
   font-size: 30px;
 }
+.content_box1 {
+  width: 320px;
+  height: 410px;
+  margin: 0;
+  float: left;
+}
+.content_box1 img {
+  width: 285px;
+  padding: 0 17.5px;
+}
+.content_box2 {
+  width: 320px;
+  height: 100px;
+  margin: 0;
 
+  float: left;
+}
+.content_box2 p {
+  font-size: 14px;
+  text-align: center;
+}
+.content_box3 {
+  width: 320px;
+  height: 220px;
+  margin: 0;
+  float: left;
+}
+.content_box3 img {
+  width: 285px;
+  padding: 0 17.5px;
+}
 #footer_wrapper {
   width: auto;
   clear: both;
