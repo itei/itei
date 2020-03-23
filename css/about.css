@@ -46,19 +46,19 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height:500px;
+  height:3890px;
+
 }
 .content {
   width: 960px;
-  height: 500px;
-  background-color: lightcoral;
+  height:3890px;
+  
   margin: 0 auto;
 }
 .content_top {
   width: 960px;
   height: 100px;
   float: left;
-  background-color: lightseagreen;
 }
 .content_top p {
   margin: auto;
@@ -69,41 +69,36 @@ a:hover {
   font-size: 30px;
 }
 .content_box1 {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 410px;
   margin: 0;
   float: left;
 }
-.content_box1 p {
-  text-align: left;
-  line-height: 32px;
-  font-size: 15px;
-  padding: 0 0 0 60px;
+.content_box1 img {
+  width: 285px;
+  padding: 0 17.5px;
 }
 .content_box2 {
-  width: 280px;
-  height: 400px;
+  width: 320px;
+  height: 100px;
   margin: 0;
+
   float: left;
 }
 .content_box2 p {
-  font-size: 20px;
-  text-align:left;
-  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
 }
 .content_box3 {
-  width: 280px;
-  height: 400px;
+  width: 320px;
+  height: 220px;
   margin: 0;
   float: left;
 }
 .content_box3 img {
-  width: 200px;
-  float: center;
-  border-radius: 150px;
-  margin-top: 0;
+  width: 285px;
+  padding: 0 17.5px;
 }
-
 #footer_wrapper {
   width: auto;
   clear: both;
