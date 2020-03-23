@@ -47,11 +47,11 @@ a:hover {
   width: auto;
   clear: both;
   height:3890px;
- background-color: lawngreen;
+ background-color: palevioletred;
 }
 .content {
   width: 960px;
-  height:3890px;
+  height:3890px
   margin: 0 auto;
 }
 .content_top {
