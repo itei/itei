@@ -46,6 +46,7 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
+  height: 600px;
   background-color: whitesmoke;
 }
 .content {
