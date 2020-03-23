@@ -74,23 +74,6 @@ a:hover {
   float: left;
   background-color: hotpink;
 }
-.content_box2 {
-  width:250px;
-  height:500px;
-  margin: 0;
-  background-color: indigo;
-  float: left;
-}
-.content_box2 h1 {
-  text-align: left;
-  padding: 0px 0 0 30px;
-  line-height: 32px;
-  font-size: 30px;
-}
-.content_box2 p {
-  font-size: 14px;
-  text-align: center;
-}
 
 #footer_wrapper {
   width: auto;
