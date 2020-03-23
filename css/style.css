@@ -4,26 +4,23 @@ body {
   margin: 0 auto;
   background-color: white;
 }
-#wrapper {
-  width:960px;
-  margin: 0 auto;
-  height:auto;
-  background-color: peru;
+#header_wrapper {
+  width: auto;
+  background-color: white;
+  clear: both;
 }
-#header {
+
+.header {
   width: 960px;
   height: 130px;
-  background-color: blue;
+  background-color: white;
   margin: 0 auto;
-  clear: both;
-  
 }
-.navi{
+.navi {
   width: 620px;
   height: 130px;
   float: right;
   padding-right: 30px;
-  background-color: orchid;
 }
 .navi ul {
   float: right;
@@ -46,35 +43,40 @@ a:hover {
   color: black;
   text-decoration: underline;
 }
-#content {
-  width: 960px;
-  height:500px;
-  background-color:orange;
-  margin: 0 auto;
+#content_wrapper {
+  width: auto;
   clear: both;
-  
+  height: 600px;
+  background-color: whitesmoke;
 }
-#content h1 {
+.content {
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+.content h1 {
   margin: auto;
   text-align: center;
-  padding-top: 230px;
+  padding-top: 280px;
   font-size: 40px;
 }
-#content p {
+.content p {
   margin: auto;
   text-align: center;
   font-size: 25px;
   padding-top: 10px;
 }
-#main {
+#main_wrapper {
+  width: auto;
+  clear: both;
+  height: auto;
+}
+.main {
   width: 960px;
   height: auto;
   margin: 0 auto;
-  clear: both;
-}
-.main_top {
-  width: 960px;
-  height: 100px;
 }
 .main_top {
   width: 960px;
@@ -87,12 +89,36 @@ a:hover {
   padding: 30px 0;
   font-size: 30px;
 }
+.main_box1 {
+  width: 320px;
+  height: 410px;
+  margin: 0;
+  float: left;
+}
+.main_box1 img {
+  width: 285px;
+  padding: 0 17.5px;
+}
+.main_box2 {
+  width: 320px;
+  height: 50px;
+  margin: 0;
+  float: left;
+}
+.main_box2 p {
+  font-size: 14px;
+  text-align: center;
+}
+#footer_wrapper {
+  width: auto;
+  background-color: black;
+  clear: both;
+}
 #footer {
   width: 960px;
   height: 50px;
   background-color: black;
   margin: 0 auto;
-  clear: both;
 }
 #footer p {
   width: 960px;
