@@ -77,13 +77,17 @@ a:hover {
   text-align: left;
   line-height: 32px;
   font-size: 15px;
-  padding: 0 30px 0 40px;
+  padding: 0 0 0 60px;
 }
 .content_box2 {
   width: 280px;
   height: 500px;
   margin: 0;
   float: left;
+}
+.content_box2 p {
+  font-size: 14px;
+  text-align: center;
 }
 .content_box3 {
   width: 280px;
