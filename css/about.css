@@ -78,21 +78,11 @@ a:hover {
   text-align: left;
   line-height: 32px;
   font-size: 15px;
+  padding: 0 30px 0 40px;
 }
 .content_box1 img {
   width: 285px;
   padding: 0 17.5px;
-}
-.content_box2 {
-  width: 320px;
-  height: 100px;
-  margin: 0;
-
-  float: left;
-}
-.content_box2 p {
-  font-size: 14px;
-  text-align: center;
 }
 
 #footer_wrapper {
