@@ -8,7 +8,6 @@ body {
   width: auto;
   background-color: white;
 }
-
 .header {
   width: 960px;
   height: 130px;
@@ -26,7 +25,7 @@ body {
   float: right;
 }
 .navi li {
-  padding: 40px 20px;
+  padding: 40px20px;
   float: left;
   list-style: none;
   font-size: 20px;
@@ -46,12 +45,11 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height:3890px;
-
+  height: 3890px;
 }
 .content {
   width: 960px;
-  height:3890px;
+  height: 3890px;
   margin: 0 auto;
 }
 .content_top {
@@ -81,7 +79,6 @@ a:hover {
   width: 320px;
   height: 100px;
   margin: 0;
-
   float: left;
 }
 .content_box2 p {
