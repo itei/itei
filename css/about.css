@@ -46,12 +46,12 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height:600px;
+  height:610px;
 
 }
 .content {
   width: 960px;
-  height:600px;
+  height:610px;
   
   margin: 0 auto;
 }
@@ -89,16 +89,7 @@ a:hover {
   font-size: 14px;
   text-align: center;
 }
-.content_box3 {
-  width: 320px;
-  height: 220px;
-  margin: 0;
-  float: left;
-}
-.content_box3 img {
-  width: 285px;
-  padding: 0 17.5px;
-}
+
 #footer_wrapper {
   width: auto;
   clear: both;
