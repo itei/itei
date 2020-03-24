@@ -91,15 +91,15 @@ a:hover {
 }
 .main_box1 {
   width:480px;
-  height:540px;
+  height:500px;
   margin: 0;
   float: left;
-  background-color:plum;
+  background-color:cornflowerblue;
 }
 .main_box1 img {
   width:290px;
   float:center;
-  padding: 0 95px 20px 95px;
+  padding: 20px 95px 20px 95px;
 }
 .main_box2 {
   width:480px;
