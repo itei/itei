@@ -94,12 +94,12 @@ a:hover {
   height:500px;
   margin: 0;
   float: left;
-  background-color:cornflowerblue;
+  background-color:palegreen;
 }
 .main_box1 img {
-  width:290px;
+  width:320px;
   float:center;
-  padding: 20px 95px 20px 95px;
+  padding: 20px 80px 20px 80px;
 }
 .main_box2 {
   width:480px;
@@ -109,7 +109,7 @@ a:hover {
   background-color: gold;
 }
 .main_box2 p {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   color: black;
 }
