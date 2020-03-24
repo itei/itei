@@ -94,6 +94,7 @@ a:hover {
   height:540px;
   margin: 0;
   float: left;
+  background-color: blueviolet;
 }
 .main_box1 img {
   width:290px;
@@ -105,6 +106,7 @@ a:hover {
   height: 50px;
   margin: 0;
   float:left;
+  background-color: chocolate;
 }
 .main_box2 p {
   font-size: 14px;
