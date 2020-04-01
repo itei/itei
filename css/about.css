@@ -67,45 +67,51 @@ a:hover {
   float: left;
   font-size: 30px;
 }
-.content_left {
-  width: 460px;
+
+.content_box1 {
+  width:580px;
   height: 500px;
   float: left;
+ 
 }
-.content_left p {
-  text-align: left;
-  padding: 0 30px 0 40px;
-  line-height: 32px;
-  font-size: 15px;
+.content_box1 h1{
+  padding:20px 0 0 40px;
 }
-.content_middle {
-  width: 250px;
+
+.content_box1 p{
+  padding:20px 0 0 40px;
+  font-size:20px;
+  line-height: 30px;
+}
+
+.content_box2 {
+  width: 380px;
   height: 500px;
   float: left;
+ 
+  
 }
-.content_middle h1 {
-  text-align: left;
-  padding: 0px 0 0 30px;
-  line-height: 32px;
-  font-size: 30px;
+.content_box2 img{
+  width:320px;
+  border-radius:200px ;
+ 
+  margin-top: 40px;
+ 
 }
-.content_middle p {
-  text-align: left;
-  padding: 30px;
-  line-height: 36px;
-  font-size: 20px;
-}
-.content_right {
-  width: 250px;
+
+.content_box3 {
+  width:960px;
   height: 500px;
   float: left;
+ 
 }
-.content_right img {
-  width: 240px;
-  float: center;
-  border-radius: 150px;
-  margin-top: 0;
+.content_box3 p {
+  padding: 20px 40px 0 40px;
+  
+  font-size: 16px;
+  line-height:30px;
 }
+
 #footer_wrapper {
   width: auto;
   clear: both;
