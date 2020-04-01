@@ -50,7 +50,7 @@ a:hover {
 }
 .content {
   width: 960px;
-  height:1600px;
+  height:1300px;
   background-color: whitesmoke;
   margin: 0 auto;
 }
@@ -103,6 +103,7 @@ a:hover {
   width:960px;
   height: 1000px;
   float: left;
+  border-top:1px solid gainsboro ;
  
 }
 .content_box3 p {
