@@ -46,12 +46,12 @@ a:hover {
 #content_wrapper {
   width: auto;
   clear: both;
-  height: 1120px;
+  
 
 }
 .content {
   width: 960px;
-  height: 1120px;
+  height:1630px;
   margin: 0 auto;
 }
 .content_top {
