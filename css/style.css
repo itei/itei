@@ -103,7 +103,7 @@ a:hover {
 .main_box2 {
   width:480px;
   height: 50px;
-  margin: 0;
+  margin:10px 0;
   float:left;
 }
 .main_box2 p {
