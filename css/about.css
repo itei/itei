@@ -87,16 +87,12 @@ a:hover {
 .content_box2 {
   width: 380px;
   height: 500px;
-  float: left;
- 
-  
+  float: left;  
 }
 .content_box2 img{
   width:320px;
   border-radius:200px ;
- 
-  margin-top: 40px;
- 
+  margin-top: 40px; 
 }
 
 .content_box3 {
@@ -104,7 +100,6 @@ a:hover {
   height:900px;
   float: left;
   border-top:1px solid gainsboro ;
- 
 }
 .content_box3 p {
   padding: 80px 40px 40px 40px;
@@ -113,11 +108,8 @@ a:hover {
   line-height:32px;
 }
 .content_box3 span {
-  
   font-size: 20px;
-  line-height:36px;
-  
-  
+  line-height:36px;  
 }
 
 #footer_wrapper {
