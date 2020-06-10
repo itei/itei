@@ -1,0 +1,278 @@
+@charset "UTF-8";
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  background-color: white;
+}
+/*header*/
+.header {
+  background-color: white;
+}
+.logo img {
+  width: 250px;
+}
+.navbar {
+  max-width:960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding-left:0;
+}
+.nav li {
+  padding: 0 20px;
+  text-align: center;
+}
+.nav a {
+  color: dimgray;
+  font-size: 16px;
+  padding-bottom: 3px; /* 文字と下線に隙間を作る */
+  display: block;
+}
+.nav li a {
+	text-decoration: none;
+	padding-bottom: 3px; /* 文字と下線に隙間を作る */
+	color: dimgray;
+	display: block;
+}
+.nav li a:after {
+	content: '';
+	width: 0;
+	transition: all 0.3s ease;
+	border-bottom: 3px solid gold;
+	display: block;
+}
+.nav li a:hover:after {
+	width: 100%;
+	border-bottom: 3px solid gold;
+}
+
+
+a:link {
+  color: dimgray;
+  text-decoration: none;
+}
+a:visited {
+  color: dimgray;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration:none;
+ 
+}
+/*maining*/
+.maining{
+    background-color: white;
+}
+.image{
+  max-width: 960px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+.image img{
+  width: 100%;
+}
+/*content*/
+.content{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+ 
+}
+.main{
+  text-align: center;
+  font-size:18px ;  
+  flex:1;
+  color:gray;   
+}
+.section_1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 960px;
+    border-bottom:1px solid gainsboro;
+  }
+.about_desc{
+    line-height:30px ;
+    font-size:16px ;
+    text-align: left;
+    padding:0 20px ;
+}  
+.section_2{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  max-width: 960px;
+  border-bottom:1px solid gainsboro;
+  margin:20px 0 ;
+}
+
+.desc ul{
+    list-style: none;
+    padding-left:0;
+    text-align: left;
+}
+.desc li{
+    line-height:40px ;
+    font-size:16px ;
+    color:dimgray;
+}
+.desc span{
+    padding:0 0 0 60px ;
+    color:gray; 
+}
+.section_3{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    text-align: left;
+    max-width: 960px;
+    margin-bottom: 20px;
+}
+.left{
+    flex:3;
+    padding:20px ;
+}
+.left img{
+    width: 100%;    
+}
+.right{
+    flex:3;
+    font-size: 12px;
+    line-height:20px ;
+    padding:0 10px ;
+}
+.right ul{
+    list-style: none;
+    padding-left:0; 
+}
+.right span{
+    font-size:15px ;
+    padding-bottom:10px ;
+    line-height:35px ;   
+}
+.section_4{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    text-align: left;
+    max-width: 960px;
+    margin-bottom: 20px;
+}
+.map{
+    flex:1;
+    width: 100%;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 20px 0;
+ 
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 8px;
+}
+/*ipad*/
+@media (max-width: 768px) {
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.nav ul {
+  flex-wrap: wrap;
+}
+.nav a {
+  color: dimgray;
+  
+}
+.section_1{
+  flex-direction: column;
+ 
+}
+.section_2{
+    flex-direction: column;
+   
+  }
+ 
+.section_3{
+    flex-direction: column;
+    align-items: center;
+  }
+.section_4{
+    flex-direction: column;
+   
+  }
+}
+/*phone*/
+@media (max-width:767px) {
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.nav ul {
+  flex-wrap: wrap;
+  
+}
+.nav a {
+    font-size: 12px;
+  }
+.logo img {
+  width: 200px;
+}
+.main{
+    font-size:12px ;   
+   }
+.section_1{
+    flex-direction: column;
+  }
+.about_desc{
+    font-size:14px ;   
+ } 
+.section_2{
+  flex-direction: column;
+}
+
+.desc{
+    padding:0 10px;   
+   }
+.desc li{
+    line-height:38px ;
+    font-size:14px ;
+    padding:0 10px;
+}   
+.desc span{
+    padding:0 0 0 20px ;
+}
+.section_3{
+    flex-direction: column;        
+  }
+
+.right{
+    
+    font-size: 14px;
+    line-height:20px ;      
+}
+.section_4{
+    flex-direction: column;
+  }
+}
