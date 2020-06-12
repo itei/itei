@@ -171,12 +171,12 @@ a:hover {
     content: '';
     width: 0;
     transition: all 0.3s ease;
-    border-bottom:none;
+    border-bottom: 3px solid white;
     display: block;
   }
   .nav li a:hover:after {
     width: 100%;
-    border-bottom:none;
+    border-bottom: 3px solid white;
   }
   
 .logo img {
