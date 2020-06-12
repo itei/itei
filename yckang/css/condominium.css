@@ -168,6 +168,18 @@ a:hover {
 .nav a {
   font-size: 12px;
 }
+.nav li a:after {
+  content: '';
+  width: 0;
+  transition: all 0.3s ease;
+  border-bottom:none;
+  display: block;
+}
+.nav li a:hover:after {
+  width: 100%;
+  border-bottom:none;
+}
+
 
 .logo img {
   width: 200px;
