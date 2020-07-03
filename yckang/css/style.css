@@ -135,8 +135,12 @@ a:hover {
   justify-content: center;
   background-color: whitesmoke;
   margin: 0 0 20px 0;
-  overflow: hidden;
- 
+  transition-duration: 0.3s ;
+  cursor: pointer;
+}
+.section_1:hover {
+  box-shadow:10px 10px 15px -10px;
+  transition-duration: 0.3s;
 }
 
 .bottom {
