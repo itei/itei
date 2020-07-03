@@ -7,6 +7,14 @@ body {
 /*header*/
 .header {
   background-color: white;
+  position: fixed;
+  /*基準を画面の左上に*/
+  top: 0;
+  left:0;
+  /*余白が入らないように*/
+  margin: 0;
+  /*以下装飾*/
+  width: 100%;
 }
 .logo img {
   width: 250px;
@@ -100,21 +108,21 @@ a:hover {
   justify-content: center;
   background-color: whitesmoke;
   margin: 0 0 20px 0;
-  overflow: hidden;
+  transition-duration: 0.3s ;
+  cursor: pointer;
   
 }
 .picture {
   flex: 5;
   padding: 10px;
-  transition-duration: 0.8s ;
-  cursor: pointer;
+  
 }
 .picture img {
   width: 100%;
 }
-.picture:hover {
-  transform: scale(1.2);
-  transition-duration: 0.8s ;
+.section:hover {
+  box-shadow:10px 10px 15px -10px;
+  transition-duration: 0.3s;
 }
 .desc {
   flex: 5;

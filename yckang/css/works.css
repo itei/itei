@@ -7,6 +7,14 @@ body {
 /*header*/
 .header {
   background-color: white;
+  position: fixed;
+  /*基準を画面の左上に*/
+  top: 0;
+  left:0;
+  /*余白が入らないように*/
+  margin: 0;
+  /*以下装飾*/
+  width: 100%;
 }
 .logo img {
   width: 250px;
@@ -103,9 +111,18 @@ a:hover {
 .picture{
   flex:5;
   padding:10px;
+  transition-duration: 0.3s;
+  height:250px;
+  
 }
 .picture img{
   width:100% ;
+  cursor: pointer;
+}
+.picture:hover {
+  box-shadow:10px 10px 15px -10px;
+  transition-duration: 0.3s;
+ 
 }
 
 .desc{
