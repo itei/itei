@@ -215,6 +215,13 @@ a:hover {
 .section_1{
   flex-direction: column-reverse;
 }
+.picture{
+  flex:5;
+  padding:10px;
+  transition-duration: 0.3s;
+  height:auto;
+  
+}
 .desc{
   flex:2;
   line-height:16px;
