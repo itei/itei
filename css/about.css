@@ -42,10 +42,7 @@ a:hover {
 }
 
 /*title*/
-.maining_1 {
-  background-color: white;
-  margin-top:100px;
-}
+
 .title {
   display: flex;
   justify-content: flex-start;
