@@ -78,9 +78,7 @@ a:hover {
   max-width: 960px;
   min-height: 50px;
   margin: 0 auto;
-  flex: 1;
-  padding: 0 20px;
-  
+  flex: 1;  
 }
 .sub_head {
   text-align: center;
