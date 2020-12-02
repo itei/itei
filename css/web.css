@@ -127,7 +127,7 @@ a:hover {
   color: black;
 }
 /*ipad*/
-@media (max-width: 768px) {
+@media (max-width:960px) {
 .navbar {
   flex-direction: column;
   justify-content: space-around;
@@ -153,7 +153,7 @@ a:hover {
 }
 }
 /*phone*/
-@media (max-width:767px) {
+@media (max-width:768px) {
 .navbar {
   flex-direction: column;
   justify-content:space-around;
