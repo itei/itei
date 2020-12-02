@@ -7,6 +7,14 @@ body {
 /*header*/
 .header {
   background-color: white;
+  position: fixed;
+  /*基準を画面の左上に*/
+  top: 0;
+  left:0;
+  /*余白が入らないように*/
+  margin: 0;
+  /*以下装飾*/
+  width: 100%;
 }
 .navbar {
   max-width: 960px;
@@ -42,7 +50,10 @@ a:hover {
 }
 
 /*title*/
-
+.mainingA {
+  background-color: white;
+  margin-top:100px;
+}
 .title {
   display: flex;
   justify-content: flex-start;
@@ -181,6 +192,9 @@ a:hover {
   font-size: 18px;
   line-height: 36px;
 }
+.mainingA {
+  margin-top: 100px; 
+ }
 .sub_head p {
   font-size: 22px;
 }
