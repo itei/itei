@@ -164,6 +164,9 @@ a:hover {
   font-size: 18px;
   line-height: 36px;
 }
+.sub_head p {
+  font-size: 22px;
+}
 .maining {
   margin-top: 100px; 
  }
