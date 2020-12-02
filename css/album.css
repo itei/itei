@@ -137,6 +137,7 @@ a:hover {
 }
 .sub_head p {
   font-size: 22px;
+  padding-left:40px;
 }
 .content{
   flex-direction: column;
