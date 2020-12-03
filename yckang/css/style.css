@@ -207,7 +207,7 @@ a:hover {
     font-size: 12px;
   }
   .nav img {
-    width:25px;
+    width:50%;
   }
   .nav li a:after {
     content: '';
