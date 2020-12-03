@@ -206,6 +206,9 @@ a:hover {
   .nav a {
     font-size: 12px;
   }
+  .nav img {
+    width:25px;
+  }
   .nav li a:after {
     content: '';
     width: 0;
