@@ -39,7 +39,9 @@ body {
   text-align: center;
  
 }
-
+.nav img {
+  width:50px;
+}
 .nav a {
   color: dimgray;
   font-size: 16px;
