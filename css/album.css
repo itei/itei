@@ -135,6 +135,11 @@ a:hover {
   font-size:20px;
   line-height: 36px;
 }
+.sub_head p {
+  font-size: 22px;
+  padding-left:60px ;
+  
+}
 .content{
   flex-direction: column;
 }
@@ -163,6 +168,7 @@ a:hover {
 }
 .sub_head p {
   font-size: 22px;
+  padding-left:40px ;
   
 }
 .maining {
