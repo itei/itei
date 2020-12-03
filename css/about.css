@@ -158,6 +158,9 @@ a:hover {
   font-size:20px;
   line-height: 36px;
 }
+.sub_head p {
+  padding-left:60px ;  
+}
 .about {
   flex-direction:column;
   background-color:whitesmoke;
@@ -197,6 +200,7 @@ a:hover {
  }
 .sub_head p {
   font-size: 22px;
+  padding-left:40px ;
 }
 .about {
   flex-direction: column;
