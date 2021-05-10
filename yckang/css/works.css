@@ -131,9 +131,6 @@ a:hover {
   flex-direction: column;
   justify-content: space-around;
 }
-.image img {
-  margin-top:170px;
-}
 .nav ul {
   flex-wrap: wrap;
   
@@ -153,9 +150,7 @@ a:hover {
 @media (max-width:640px) {
 .navbar {
   flex-direction: column;
-  justify-content:center;
- 
- 
+  justify-content:center; 
 }
 .nav ul {
   flex-wrap: wrap; 
