@@ -126,6 +126,9 @@ a:hover {
 .navbar {
   flex-direction: column;
   justify-content: space-around;
+}
+.image img {
+  margin-top:170px;
 }  
 .nav ul {
   flex-wrap: wrap;

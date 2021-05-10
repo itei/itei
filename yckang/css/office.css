@@ -128,6 +128,9 @@ a:hover {
   justify-content: space-around;
   
 }
+.image img {
+  margin-top:170px;
+}
 .nav ul {
   flex-wrap: wrap;
 }
