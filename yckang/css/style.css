@@ -57,6 +57,7 @@ a:hover {
 /*maining*/
 .maining {
   background-color: white;
+  margin-top:100px ;
 }
 .image {
   max-width: 960px;
@@ -163,6 +164,10 @@ a:hover {
     opacity: 1;
     transform: scale(1);
   }
+  .maining {
+    margin-top: 170px;
+     
+   }
   .section_1 {
     flex-direction: column-reverse;
   }
