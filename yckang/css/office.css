@@ -55,6 +55,7 @@ a:hover {
 /*maining*/
 .maining{
     background-color: white;
+    margin-top:100px ;
 }
 .image{
   max-width: 960px;
@@ -140,6 +141,10 @@ a:hover {
 .section_1{
   flex-direction: column-reverse;
 }
+.maining {
+  margin-top: 170px;
+   
+ }
 }
 /*phone*/
 @media (max-width:640px) {
